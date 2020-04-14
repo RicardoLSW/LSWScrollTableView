@@ -88,7 +88,7 @@
             @"elevatorNum": @"10"
         },
     ];
-    LSWScrollTableView *scrollTableView = [[LSWScrollTableView alloc] initWithFrame:[UIScreen mainScreen].bounds columns:columns data:data cellHeight:40 headerHeight:50 cellBackgroundColor:@[[UIColor whiteColor],[UIColor grayColor]] headerBackgroundColor:[UIColor yellowColor] headerTextColor:[UIColor blackColor] cellTextColor:[UIColor blackColor]];
+    LSWScrollTableView *scrollTableView = [[LSWScrollTableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 320) columns:columns data:data cellHeight:40 headerHeight:50 cellBackgroundColor:@[[UIColor whiteColor],[UIColor grayColor]] headerBackgroundColor:[UIColor yellowColor] headerTextColor:[UIColor blackColor] cellTextColor:[UIColor blackColor]];
     [self.view addSubview:scrollTableView];
 }
 
