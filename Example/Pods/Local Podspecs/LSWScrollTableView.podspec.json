@@ -1,0 +1,22 @@
+{
+  "name": "LSWScrollTableView",
+  "version": "0.1.0",
+  "summary": "A short description of LSWScrollTableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ricardo/LSWScrollTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ricardo": "qq1043009478@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/Ricardo/LSWScrollTableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LSWScrollTableView/Classes/**/*"
+}

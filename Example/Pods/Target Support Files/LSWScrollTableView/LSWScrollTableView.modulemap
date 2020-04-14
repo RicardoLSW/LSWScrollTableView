@@ -1,0 +1,6 @@
+framework module LSWScrollTableView {
+  umbrella header "LSWScrollTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
