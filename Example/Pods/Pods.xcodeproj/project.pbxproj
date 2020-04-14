@@ -13,7 +13,6 @@
 		05CFF6618B87EDE2069D4C5D3DDFF9EB /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F4F7AD35D4F508734A48033834E890 /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		08610BEB632F2CD110079551EF432E8E /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 120B9CD3BE47A0A29551D6212204B1B2 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		08AEFF25BCA9DCCE51F76FD3CE8D3C74 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A36A6648C2FE7B3134B412E15F58CA3 /* UIImage+Compare.m */; };
-		0DD29BA96859733D69F44FFAEF0A079C /* LSWScrollTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5105417A51CEED0CF7085C86BF7C4E /* LSWScrollTableView-dummy.m */; };
 		0DE0AA588BC61692033B67CFCE4EC742 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B2AF6D85DF7A1D563ED17D82949095 /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F200814CB7DB37FAB5CCB2DB5B61E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8CC683290F4D17FEDFC772BCB48EE /* Foundation.framework */; };
 		114C2163DAE74196CAF6FA2E5FB633D7 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DE1A8DD615F4C2034BD92730526CD0 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,7 +34,7 @@
 		23FDAD4F36A963F2AA4C0B9D8917AF9E /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 4717F1D3DC71B3B60E6BB90A6EC8AFEB /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		244D8552B11F2D1B417EBB82BBE9E938 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A6FF84E1B612C18CD0DB025A755909 /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		25C2905BD04D69AB3CCA7BCC93D07AC7 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F445599C4AAFDDDD9519A0A684B897 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28638961DC2F9874F74D98BB181820A8 /* LSWScrollTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6FAE1B0A68557E0FABA3D1AD433A8B /* LSWScrollTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		263D9B538380667EC73BC547712F9C13 /* LSWScrollTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E4049A137B25496A43B9E2CAF184BA /* LSWScrollTableView-dummy.m */; };
 		28F23E68E55462EBC24ABF2F2F131255 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3E321F0270E6614254493A25B0EB3C /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294AC74F8A8F734A08BD8CA64FA8D9FE /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0219796C82990A1A1AD5FD69FCE279 /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A46DD69C90BDFA0AD55A31D0F16A78A /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C190D31E8293E363C95BD5EB27E9EF6F /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,6 +78,7 @@
 		66ABBD694E306E452A0D3DB3972FA429 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E28AE7BFFFA8D110B50504208BEAF12 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68BF9933E4E96FD269BF6409F677BAF3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864E6C93517623437094A8833BD247A5 /* XCTest.framework */; };
 		6B575D5C03624D5A253D6C128F3768DC /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7FFA6FCAFB27A7D7E44187593351F4 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CE9E286E57104F34CBBD04B87486FA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8CC683290F4D17FEDFC772BCB48EE /* Foundation.framework */; };
 		6DFA2A4ECED1F7E0310AB654FFBD2445 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 9119D7EE9550AA0B4D7B2AD190064540 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E8A45EF6CD46D90A634E1E9163E562E /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD768DA1D487FEB1BA4003F9C819EA55 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		70E91290A2C36004BB7177FE09A902A5 /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 312095F7F5375734EB593736593A782F /* XCTestCase+Specta.m */; };
@@ -110,7 +110,6 @@
 		A0FB558C12CC98F95A448699D80E54CA /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A97ECCDEE7F27973198D2C2C88107A /* SwiftSupport.swift */; };
 		A6A49734BE2CA7A10109D9A0F6E79AAA /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = F919EF3503C402CC5F7A4C3DB6193377 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACBDE7479CEDFD9F3261E26D6B1015FC /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4825F999D0804E1F8AD53546928C3B /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD85D601B0C6C35513AA3F388ADFD48B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8CC683290F4D17FEDFC772BCB48EE /* Foundation.framework */; };
 		AD96736DFA1A1A28B31F13E7818FCFE2 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = FF453CC0D321E182D58A17C8CBA7C761 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		ADC88A4EE6896AE4E6412F0128AB38C5 /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BECA7EB5552EB5421C792ACB73D7B6 /* SPTExampleGroup.m */; };
 		B24C0951E730C8D7B6539598555A0126 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F0CF3F420E5310819B81738FA9D688 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -126,13 +125,16 @@
 		C157A374BDFD95329C340B5840AAFAE5 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F35B526A6E9FE835F7B059530AF531 /* SpectaUtility.m */; };
 		C18FBD6CD221CAFD1AF15CC99A48CB84 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 373A03A6E473A3992D0B0050DF3E1C2F /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C21852EA0F5BED0F4235D5F8E976FA09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864E6C93517623437094A8833BD247A5 /* XCTest.framework */; };
+		C334F126A07E295D5AA3A7BCF1474B16 /* LSWScrollTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BCD96B9CD078B8F7D59D2245718E6E /* LSWScrollTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C431F4A8098F3F8FEED02C58EB2704E8 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B269FEABB7278815763F516980F270B /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4632B64DD0F3ADB3BB829A6EBC322E6 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443DE508E39FB0CA1686F2104767961 /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CA004C816B835986CB7FD1AF44E0DFD1 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DCF775086F309A2C9E451B03F39222 /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA17B8E5FFF13F7681D42AF5D6F1F1B0 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A8DE0FA07C133F3F9B1194A3EB7055 /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAEE0E44BC37459BD49C0B1D626B0477 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4CAF2BB2132ECA2E445AB24D7E5DE3 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC3C2B2DE54DC2D16D363ADA7D17FF03 /* LSWScrollTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E91EB62B12904C2A6B504D18ED6E1 /* LSWScrollTableView.m */; };
 		D327EEB8522F6389513EB84ACF12F242 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 6054AB7FD0D1B8838A071D22F2A06C04 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D5C3E91A2121AE27F99028292B9436A8 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7FC6DD0FF32838D557850FBD111B68 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D920EFC4FFDC096331CFB461F1E777E2 /* LSWScrollTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61612DDC28EE58E4A5CBE6DFD4809B57 /* LSWScrollTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFF33BEB222CF58005C06FF0CD556DF /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCCA77C7909AD03E00A75837DEBE55A /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD29F678D007BF9664244B823433B858 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = DF618FE6DB1F243F3DF9DC3BE9BE973A /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE7FC5D8F81CE893DB6EDF99865350C5 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBEB41F3568907B174A4BBE519DA1E4 /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -152,7 +154,6 @@
 		F3EDE6D241EE2A6D0992A24ACDDBAB35 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E53B23A152FCFB31E04A5BC4BD00DA /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F4591B9C7F70268A3F94B40ADDBA5202 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 91291ADAA7B00BFFAE60956D01ABE2F9 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F4F8BAEA1C2B92CD3CE72DA5019E3D6E /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 774C7F1A9A647A467A5847359F0DAD5D /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA31C052CAF4C783DE53B216F17D6E0E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BC936E44BED3BD96360158C4F5173CF7 /* ReplaceMe.m */; };
 		FA5E3D10F0EBE2C11AEA7465EDA037BF /* Pods-LSWScrollTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D354126C86575555708B8C067DA91 /* Pods-LSWScrollTableView_Example-dummy.m */; };
 		FBC9734FF84807AE5347B2196D7EBC6D /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2996A6217D5E2D993AF9E137D97446D4 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -226,6 +227,7 @@
 /* Begin PBXFileReference section */
 		000047BB7E1E8140D7B2C74A3A330923 /* ExpectaObject+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpectaObject+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		0626F0D0A083B4EBF30218415425775E /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
+		067E91EB62B12904C2A6B504D18ED6E1 /* LSWScrollTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSWScrollTableView.m; path = LSWScrollTableView/Classes/LSWScrollTableView.m; sourceTree = "<group>"; };
 		08BECA7EB5552EB5421C792ACB73D7B6 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A36A6648C2FE7B3134B412E15F58CA3 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -240,12 +242,12 @@
 		19F4F7AD35D4F508734A48033834E890 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		1A3B9CA9EFB06F99448D3C144E8674EE /* Pods-LSWScrollTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LSWScrollTableView_Tests.modulemap"; sourceTree = "<group>"; };
 		1AF63B75AD42D15117F82F13DA818A8D /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
-		1C4EAE70AEF76D07F88DDFDE5A97F625 /* LSWScrollTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSWScrollTableView-prefix.pch"; sourceTree = "<group>"; };
 		1D4825F999D0804E1F8AD53546928C3B /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
 		1D95144B6F0E1A3BEDF400012BA2FED6 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		1EB7B3F81BC905093A26C7C25A0E6545 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		1F88BA2C3B16567263950B29194FFA81 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
 		20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta_Snapshots.framework; path = "Expecta+Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		225D96A48E3B5757162D30BECDC2567C /* LSWScrollTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSWScrollTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2337D72B385D34C88E0A80DA789A8983 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		2996A6217D5E2D993AF9E137D97446D4 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
 		2B68EC3A7D03997CA14E462F2B3EF9DF /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
@@ -254,7 +256,6 @@
 		2D79EDA4D56B8968095C57292EC54534 /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		2D9817C74A110FCAFBB72C4D894F911D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		303F371EFA3986F7EAD6B8D451041A39 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
-		307F3C649994042142AC1052E9F5DEF0 /* LSWScrollTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LSWScrollTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		312095F7F5375734EB593736593A782F /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		31B98074F35D92144EE2A0A19F0416F5 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
 		31C146D14644228FEF6AD64A117AC0D1 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
@@ -272,16 +273,17 @@
 		44F0CF3F420E5310819B81738FA9D688 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		45AE1B3E9D5789E7A4F683B61B460362 /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
 		462CDEE5FC3BC88A62A0EE4FEFF28791 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
+		46B9230C5A093BCBB70B02FEA56F3804 /* LSWScrollTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSWScrollTableView-Info.plist"; sourceTree = "<group>"; };
 		4704E0378F69E96CBC11ECBD875BEEF0 /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		4717F1D3DC71B3B60E6BB90A6EC8AFEB /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
 		47A46A19691546953C5903961C3E1388 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A21A0FB215C41AB35F3F937E33DA685 /* Pods-LSWScrollTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSWScrollTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4A330379CAB29C00FEA5BBD48341C045 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C385B72B2937A2A8F21808ECD127269 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
+		4D744275163A25C6A7EBFBCFE1153660 /* LSWScrollTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSWScrollTableView.modulemap; sourceTree = "<group>"; };
 		4E1DE417FB86D3EF26B16EEE0C80B035 /* Expecta+Snapshots-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta+Snapshots-Info.plist"; sourceTree = "<group>"; };
 		4E28AE7BFFFA8D110B50504208BEAF12 /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
 		4ECF4B68CD96419614FCC01928BE7AB0 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		510754DB471E31C09EF98B2FB3A01B18 /* LSWScrollTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LSWScrollTableView.modulemap; sourceTree = "<group>"; };
 		51A8DE0FA07C133F3F9B1194A3EB7055 /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
 		528C93926AC17968AF30B30D1D6731AB /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		54E53B23A152FCFB31E04A5BC4BD00DA /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
@@ -293,12 +295,11 @@
 		5AD836DE8C75198189FAB94B82F323ED /* Pods-LSWScrollTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSWScrollTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B1B8DFDF52FD994143A063F8254E421 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D6FAE1B0A68557E0FABA3D1AD433A8B /* LSWScrollTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSWScrollTableView-umbrella.h"; sourceTree = "<group>"; };
 		6054AB7FD0D1B8838A071D22F2A06C04 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
+		61612DDC28EE58E4A5CBE6DFD4809B57 /* LSWScrollTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSWScrollTableView.h; path = LSWScrollTableView/Classes/LSWScrollTableView.h; sourceTree = "<group>"; };
 		63F92782B7A3DAAE67C73CD6D00B8F48 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		65010C4EEFEDA3CF83CE73AD9BBBAB7A /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		65A3F9059119E1A5287A88950D44F6D0 /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
-		66B300CBEEE4CB5ECC178EF0B2F11823 /* LSWScrollTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LSWScrollTableView-Info.plist"; sourceTree = "<group>"; };
 		6867F62D06A185737C966370974491E5 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		698126E65A12DDE522D0C087F438B650 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		6B1D354126C86575555708B8C067DA91 /* Pods-LSWScrollTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSWScrollTableView_Example-dummy.m"; sourceTree = "<group>"; };
@@ -308,6 +309,7 @@
 		6F83EB6595C7B9AAE1D1B1A3BF3BEC42 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		7294A5B18D0DC3A0D550BBA577C3A49E /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
 		73DADCA5E0A31361459F03A7D8148B0E /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
+		765CC2805F62DAFE66CED9E254E28DB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		774C7F1A9A647A467A5847359F0DAD5D /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
 		790A4DD76D42326841C22A04BB7856E1 /* Pods-LSWScrollTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSWScrollTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		79C1A9F2690C7889BD57CC21B5CE41F6 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 		864E6C93517623437094A8833BD247A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		876C1AB9B58C5F9D09376B6F1EE5F2E6 /* Pods-LSWScrollTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSWScrollTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		87E375A9819F95D66C415826F98C64E1 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
+		892C09CE25EF2E671111D842F8F69AFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8A1C96EDE287984A3DBEF26263F88130 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		8BB8CC683290F4D17FEDFC772BCB48EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8CCCA77C7909AD03E00A75837DEBE55A /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
@@ -335,6 +338,7 @@
 		9443DE508E39FB0CA1686F2104767961 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		94F445599C4AAFDDDD9519A0A684B897 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		9804CF913ED8446C2C5452E5418046C3 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
+		99BCD96B9CD078B8F7D59D2245718E6E /* LSWScrollTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSWScrollTableView-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3E25669E37E7BCD23DC58697803BE2 /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		A158EC7B364024B4B784203CD93A884E /* Pods-LSWScrollTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSWScrollTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -353,11 +357,10 @@
 		AE4CAF2BB2132ECA2E445AB24D7E5DE3 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
 		AEA300C55882BA433A7AF488BB72D1AD /* Pods-LSWScrollTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSWScrollTableView_Tests-dummy.m"; sourceTree = "<group>"; };
 		AF7FC6DD0FF32838D557850FBD111B68 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
-		B117F829A1C5DB43BE35085351C03827 /* LSWScrollTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSWScrollTableView.xcconfig; sourceTree = "<group>"; };
 		B470BB15D74EDC3BD4F164143A9EF861 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
+		B5E4049A137B25496A43B9E2CAF184BA /* LSWScrollTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSWScrollTableView-dummy.m"; sourceTree = "<group>"; };
 		B75206D07413613FA601F23D4F7CF1BF /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
 		BB2D66D2ABC6BC29947F196674ACF573 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
-		BC936E44BED3BD96360158C4F5173CF7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LSWScrollTableView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		BF1FA5EEA56947A315CBDA56A661EDE2 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		C114FF6C2ACDD2296DBD0791BC2A6EB1 /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
 		C190D31E8293E363C95BD5EB27E9EF6F /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
@@ -381,8 +384,9 @@
 		DF618FE6DB1F243F3DF9DC3BE9BE973A /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		E1DE1A8DD615F4C2034BD92730526CD0 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		E210672E29BCC9F3E6753DD44B95A30D /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		E3642BAD4D08F2E826041D6674E37115 /* LSWScrollTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSWScrollTableView-prefix.pch"; sourceTree = "<group>"; };
 		E375E10BD6F99F5734977CCB0654295C /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
-		E441F2AD781423FAFC7B100630178E9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E5D33D34EA522502E0C29256F6E4C23F /* LSWScrollTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSWScrollTableView.xcconfig; sourceTree = "<group>"; };
 		E68EA65A7C83975D31EAE91F113F6461 /* Pods_LSWScrollTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LSWScrollTableView_Example.framework; path = "Pods-LSWScrollTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80416032B18506139A06E3CED2F08DF /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Expecta.modulemap; sourceTree = "<group>"; };
 		E8713B1ED8D15C8A0523963755596AC6 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
@@ -403,11 +407,9 @@
 		F774BAF5D065919ECB8C2852C414EE19 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		F827D555082DC6514605F9AB327FE273 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		F919EF3503C402CC5F7A4C3DB6193377 /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
-		FD5105417A51CEED0CF7085C86BF7C4E /* LSWScrollTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSWScrollTableView-dummy.m"; sourceTree = "<group>"; };
 		FE7FFA6FCAFB27A7D7E44187593351F4 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		FEFD4A1C51CB7BA963FEFB3824AED27A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		FF453CC0D321E182D58A17C8CBA7C761 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		FF645FC7A1C0222B66B4EF1FDA49CAFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,14 +430,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CDCB18A494C5523685AF9A93831B1E8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52952344F2C7A833A411676C18E4A01E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD85D601B0C6C35513AA3F388ADFD48B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +456,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				17DBC52C7D9E681A531B0A952E296F17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD34DAF07B93D1742D29A695CF88B0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE9E286E57104F34CBBD04B87486FA7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,14 +503,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0AC4201636B348D58E35149D7B9A3DBF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3A13E1ACBBCCF0933A2B7EF5BFC3C7F1 /* LSWScrollTableView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		0F255F51508C6B15EC8475D3DC3A89CC /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -534,15 +528,18 @@
 			path = "Target Support Files/Pods-LSWScrollTableView_Tests";
 			sourceTree = "<group>";
 		};
-		3A13E1ACBBCCF0933A2B7EF5BFC3C7F1 /* LSWScrollTableView */ = {
+		30A42DF47EDC9CD70B86A6292820CA2F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BC936E44BED3BD96360158C4F5173CF7 /* ReplaceMe.m */,
-				ACE7B832CF07395877E5C4C348C57FBA /* Pod */,
-				7DC6542D8710F967E52F000F614BB0C5 /* Support Files */,
+				4D744275163A25C6A7EBFBCFE1153660 /* LSWScrollTableView.modulemap */,
+				E5D33D34EA522502E0C29256F6E4C23F /* LSWScrollTableView.xcconfig */,
+				B5E4049A137B25496A43B9E2CAF184BA /* LSWScrollTableView-dummy.m */,
+				46B9230C5A093BCBB70B02FEA56F3804 /* LSWScrollTableView-Info.plist */,
+				E3642BAD4D08F2E826041D6674E37115 /* LSWScrollTableView-prefix.pch */,
+				99BCD96B9CD078B8F7D59D2245718E6E /* LSWScrollTableView-umbrella.h */,
 			);
-			name = LSWScrollTableView;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LSWScrollTableView";
 			sourceTree = "<group>";
 		};
 		41ACBD1E08C50A385CD529F51A628C06 /* Products */ = {
@@ -691,20 +688,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7DC6542D8710F967E52F000F614BB0C5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				510754DB471E31C09EF98B2FB3A01B18 /* LSWScrollTableView.modulemap */,
-				B117F829A1C5DB43BE35085351C03827 /* LSWScrollTableView.xcconfig */,
-				FD5105417A51CEED0CF7085C86BF7C4E /* LSWScrollTableView-dummy.m */,
-				66B300CBEEE4CB5ECC178EF0B2F11823 /* LSWScrollTableView-Info.plist */,
-				1C4EAE70AEF76D07F88DDFDE5A97F625 /* LSWScrollTableView-prefix.pch */,
-				5D6FAE1B0A68557E0FABA3D1AD433A8B /* LSWScrollTableView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LSWScrollTableView";
-			sourceTree = "<group>";
-		};
 		82D1C61E543DEEC9A47912C69C9BC11D /* Specta */ = {
 			isa = PBXGroup;
 			children = (
@@ -767,12 +750,24 @@
 			path = "Target Support Files/Pods-LSWScrollTableView_Example";
 			sourceTree = "<group>";
 		};
-		ACE7B832CF07395877E5C4C348C57FBA /* Pod */ = {
+		A3309EA4DBD7B26B5B1A5A1E75CD16EC /* LSWScrollTableView */ = {
 			isa = PBXGroup;
 			children = (
-				E441F2AD781423FAFC7B100630178E9E /* LICENSE */,
-				307F3C649994042142AC1052E9F5DEF0 /* LSWScrollTableView.podspec */,
-				FF645FC7A1C0222B66B4EF1FDA49CAFB /* README.md */,
+				61612DDC28EE58E4A5CBE6DFD4809B57 /* LSWScrollTableView.h */,
+				067E91EB62B12904C2A6B504D18ED6E1 /* LSWScrollTableView.m */,
+				C8DC5F2019E4F0EE48398824B4BEBFC0 /* Pod */,
+				30A42DF47EDC9CD70B86A6292820CA2F /* Support Files */,
+			);
+			name = LSWScrollTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C8DC5F2019E4F0EE48398824B4BEBFC0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				765CC2805F62DAFE66CED9E254E28DB4 /* LICENSE */,
+				225D96A48E3B5757162D30BECDC2567C /* LSWScrollTableView.podspec */,
+				892C09CE25EF2E671111D842F8F69AFD /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -781,7 +776,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0AC4201636B348D58E35149D7B9A3DBF /* Development Pods */,
+				F33F30E2F372DF80D682159D9B5F43B1 /* Development Pods */,
 				030DB05C81A99094FF0898DC6A5E0110 /* Frameworks */,
 				00F99F44C4FE3889C33D6FB22A9515F3 /* Pods */,
 				41ACBD1E08C50A385CD529F51A628C06 /* Products */,
@@ -812,6 +807,14 @@
 				864E6C93517623437094A8833BD247A5 /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F33F30E2F372DF80D682159D9B5F43B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3309EA4DBD7B26B5B1A5A1E75CD16EC /* LSWScrollTableView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		FBF7EB486D6D1A90130ADB2B161A7D63 /* Core */ = {
@@ -932,14 +935,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A53F570055C270EE6C9174FF1322BC4A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28638961DC2F9874F74D98BB181820A8 /* LSWScrollTableView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B62828866B87A223DBD8707DAF60891C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -960,6 +955,15 @@
 				A6A49734BE2CA7A10109D9A0F6E79AAA /* SPTTestSuite.h in Headers */,
 				5059AD2A2AC334C2C660208BE71F908B /* XCTest+Private.h in Headers */,
 				CA17B8E5FFF13F7681D42AF5D6F1F1B0 /* XCTestCase+Specta.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E5D8CB3659C8C9AE64CA374DA8799 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C334F126A07E295D5AA3A7BCF1474B16 /* LSWScrollTableView-umbrella.h in Headers */,
+				D920EFC4FFDC096331CFB461F1E777E2 /* LSWScrollTableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -995,12 +999,12 @@
 		};
 		8031CA0B5966D6B9B50C285EAACAB135 /* LSWScrollTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60FB1C80560387AAAD340552BE2E16DD /* Build configuration list for PBXNativeTarget "LSWScrollTableView" */;
+			buildConfigurationList = 28F61AD16F35161E433322253210C9BF /* Build configuration list for PBXNativeTarget "LSWScrollTableView" */;
 			buildPhases = (
-				A53F570055C270EE6C9174FF1322BC4A /* Headers */,
-				E32CA383E08A0F50AE74D838E6B45B96 /* Sources */,
-				52952344F2C7A833A411676C18E4A01E /* Frameworks */,
-				C1E834AA0DCDC273DDAB04C1CB3733A7 /* Resources */,
+				C95E5D8CB3659C8C9AE64CA374DA8799 /* Headers */,
+				7148CCD0BD867E29FF4CC2F72A551DBB /* Sources */,
+				BD34DAF07B93D1742D29A695CF88B0C1 /* Frameworks */,
+				B07639259C4DA4BFECC2507C90E326B0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1178,7 +1182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1E834AA0DCDC273DDAB04C1CB3733A7 /* Resources */ = {
+		B07639259C4DA4BFECC2507C90E326B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1202,6 +1206,15 @@
 				1A7B46C7E3217E400CC573C6D92F9693 /* Expecta+Snapshots-dummy.m in Sources */,
 				16F74C2473CB0A727500E61780E107FA /* ExpectaObject+FBSnapshotTest.m in Sources */,
 				8479152A46904EEB3F1E1F7BB135A14F /* EXPMatchers+FBSnapshotTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7148CCD0BD867E29FF4CC2F72A551DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263D9B538380667EC73BC547712F9C13 /* LSWScrollTableView-dummy.m in Sources */,
+				CC3C2B2DE54DC2D16D363ADA7D17FF03 /* LSWScrollTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1276,15 +1289,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5E3D10F0EBE2C11AEA7465EDA037BF /* Pods-LSWScrollTableView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E32CA383E08A0F50AE74D838E6B45B96 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DD29BA96859733D69F44FFAEF0A079C /* LSWScrollTableView-dummy.m in Sources */,
-				FA31C052CAF4C783DE53B216F17D6E0E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1649,37 +1653,6 @@
 			};
 			name = Debug;
 		};
-		6E55B2611C3507B2868A67A039B59082 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B117F829A1C5DB43BE35085351C03827 /* LSWScrollTableView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSWScrollTableView/LSWScrollTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSWScrollTableView/LSWScrollTableView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSWScrollTableView/LSWScrollTableView.modulemap";
-				PRODUCT_MODULE_NAME = LSWScrollTableView;
-				PRODUCT_NAME = LSWScrollTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		719A6B57A6FDCF92B6AE76CBD4BCE211 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 876C1AB9B58C5F9D09376B6F1EE5F2E6 /* Pods-LSWScrollTableView_Example.debug.xcconfig */;
@@ -1740,38 +1713,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7959040E7B20FA02C5B160178BC0DB02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B117F829A1C5DB43BE35085351C03827 /* LSWScrollTableView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LSWScrollTableView/LSWScrollTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LSWScrollTableView/LSWScrollTableView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LSWScrollTableView/LSWScrollTableView.modulemap";
-				PRODUCT_MODULE_NAME = LSWScrollTableView;
-				PRODUCT_NAME = LSWScrollTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1842,6 +1783,38 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		A8F8FFF08ABD6F8B2EB04A55BC607ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D33D34EA522502E0C29256F6E4C23F /* LSWScrollTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSWScrollTableView/LSWScrollTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSWScrollTableView/LSWScrollTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSWScrollTableView/LSWScrollTableView.modulemap";
+				PRODUCT_MODULE_NAME = LSWScrollTableView;
+				PRODUCT_NAME = LSWScrollTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		DBB0D5C51B16CEE08CF2A9B656B6FAC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1939,6 +1912,37 @@
 			};
 			name = Debug;
 		};
+		F9A14AAE11D6530CF77443B104A09B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D33D34EA522502E0C29256F6E4C23F /* LSWScrollTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LSWScrollTableView/LSWScrollTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LSWScrollTableView/LSWScrollTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LSWScrollTableView/LSWScrollTableView.modulemap";
+				PRODUCT_MODULE_NAME = LSWScrollTableView;
+				PRODUCT_NAME = LSWScrollTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1947,6 +1951,15 @@
 			buildConfigurations = (
 				F668372F86B4C39445A7061190877B5E /* Debug */,
 				5B4608739A35FD83DB1FEEA131F3B73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F61AD16F35161E433322253210C9BF /* Build configuration list for PBXNativeTarget "LSWScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A14AAE11D6530CF77443B104A09B09 /* Debug */,
+				A8F8FFF08ABD6F8B2EB04A55BC607ABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1965,15 +1978,6 @@
 			buildConfigurations = (
 				67FF4667685C1DB41C5E4CA9F4BF5363 /* Debug */,
 				E972D01E9E3B5300299ADF800953BF57 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		60FB1C80560387AAAD340552BE2E16DD /* Build configuration list for PBXNativeTarget "LSWScrollTableView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E55B2611C3507B2868A67A039B59082 /* Debug */,
-				7959040E7B20FA02C5B160178BC0DB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LSWScrollTableView.h"
 
 FOUNDATION_EXPORT double LSWScrollTableViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char LSWScrollTableViewVersionString[];
