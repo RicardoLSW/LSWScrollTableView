@@ -34,9 +34,9 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LSWScrollTableView: d14d1eb74b6cee5a4ad720dc5c84d3f385416b81
+  LSWScrollTableView: 9f6b15ef55a91f163cfa774df179c674a3bae163
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 76508a02edf39cd23546f0acd5438d82e5c9c47e
+PODFILE CHECKSUM: 11f4bd6d4772b28ac12bba4db67603a50d56ec4e
 
 COCOAPODS: 1.8.4

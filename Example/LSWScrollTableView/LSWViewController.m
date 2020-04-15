@@ -11,6 +11,8 @@
 
 @interface LSWViewController ()
 
+@property (nonatomic, strong) LSWScrollTableView *scrollTableView;
+
 @end
 
 @implementation LSWViewController
@@ -88,8 +90,34 @@
             @"elevatorNum": @"10"
         },
     ];
-    LSWScrollTableView *scrollTableView = [[LSWScrollTableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 320) columns:columns data:data cellHeight:40 headerHeight:50 cellBackgroundColor:@[[UIColor whiteColor],[UIColor grayColor]] headerBackgroundColor:[UIColor yellowColor] headerTextColor:[UIColor blackColor] cellTextColor:[UIColor blackColor]];
-    [self.view addSubview:scrollTableView];
+    self.scrollTableView = [[LSWScrollTableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 320) columns:columns data:data cellHeight:40 headerHeight:50 cellBackgroundColor:@[[UIColor whiteColor],[UIColor grayColor]] headerBackgroundColor:[UIColor yellowColor] headerTextColor:[UIColor blackColor] cellTextColor:[UIColor blackColor]];
+
+    UIButton *openBtn = [[UIButton alloc] initWithFrame:CGRectMake(10, 350, 100, 50)];
+    [openBtn setTitle:@"开始滚动" forState:UIControlStateNormal];
+    [openBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    openBtn.layer.borderColor = [[UIColor blackColor] CGColor];
+    openBtn.layer.borderWidth = 1.0f;
+    [openBtn addTarget:self action:@selector(openScroll) forControlEvents:UIControlEventTouchUpInside];
+
+    UIButton *closeBtn = [[UIButton alloc] initWithFrame:CGRectMake(120, 350, 100, 50)];
+    [closeBtn setTitle:@"关闭滚动" forState:UIControlStateNormal];
+    [closeBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    closeBtn.layer.borderColor = [[UIColor blackColor] CGColor];
+    closeBtn.layer.borderWidth = 1.0f;
+    [closeBtn addTarget:self action:@selector(closeScroll) forControlEvents:UIControlEventTouchUpInside];
+
+    [self.view addSubview:openBtn];
+    [self.view addSubview:closeBtn];
+
+    [self.view addSubview:self.scrollTableView];
+}
+
+- (void)openScroll{
+    [self.scrollTableView openScroll];
+}
+
+- (void)closeScroll{
+    [self.scrollTableView stopScroll];
 }
 
 - (void)didReceiveMemoryWarning
