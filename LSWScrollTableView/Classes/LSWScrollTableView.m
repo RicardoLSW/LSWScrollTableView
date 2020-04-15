@@ -70,6 +70,8 @@ static NSString *const cellId = @"cellId";
         self.tableView1.dataSource = self;
         self.tableView2.delegate = self;
         self.tableView2.dataSource = self;
+        self.tableView1.scrollEnabled = NO;
+        self.tableView2.scrollEnabled = NO;
         [tableView addSubview:self.tableView1];
         [tableView addSubview:self.tableView2];
         
@@ -105,6 +107,7 @@ static NSString *const cellId = @"cellId";
     } else {
         cell.backgroundColor = self.cellBackgroundColor[1];
     }
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
