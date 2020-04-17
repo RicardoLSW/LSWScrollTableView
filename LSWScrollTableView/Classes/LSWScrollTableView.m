@@ -102,10 +102,26 @@ static NSString *const cellId = @"cellId";
         headerX += [obj[@"width"] floatValue];
         [cell addSubview:label];
     }];
-    if (indexPath.row % 2 == 1) {
-        cell.backgroundColor = self.cellBackgroundColor[0];
-    } else {
-        cell.backgroundColor = self.cellBackgroundColor[1];
+    if (self.data.count % 2 == 1) {
+        if (tableView == self.tableView1) {
+            if (indexPath.row % 2 == 1) {
+                cell.backgroundColor = self.cellBackgroundColor[0];
+            } else {
+                cell.backgroundColor = self.cellBackgroundColor[1];
+            }
+        } else if (tableView == self.tableView2) {
+            if (indexPath.row % 2 == 0) {
+                cell.backgroundColor = self.cellBackgroundColor[0];
+            } else {
+                cell.backgroundColor = self.cellBackgroundColor[1];
+            }
+        }
+    } else if (self.data.count % 2 == 0) {
+        if (indexPath.row % 2 == 1) {
+            cell.backgroundColor = self.cellBackgroundColor[0];
+        } else {
+            cell.backgroundColor = self.cellBackgroundColor[1];
+        }
     }
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;

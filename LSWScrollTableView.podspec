@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LSWScrollTableView'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'iOS端UI控件-循环滚动表格(让数据动起来)'
 
 # This description is used to generate tags and improve search results.

@@ -84,11 +84,11 @@
             @"customerName": @"南昌轨道交通十号线",
             @"elevatorNum": @"9"
         },
-        @{
-            @"projectType": @"T类",
-            @"customerName": @"南昌轨道交通十一号线",
-            @"elevatorNum": @"10"
-        },
+//        @{
+//            @"projectType": @"T类",
+//            @"customerName": @"南昌轨道交通十一号线",
+//            @"elevatorNum": @"10"
+//        },
     ];
     self.scrollTableView = [[LSWScrollTableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 320) columns:columns data:data cellHeight:40 headerHeight:50 cellBackgroundColor:@[[UIColor whiteColor],[UIColor grayColor]] headerBackgroundColor:[UIColor yellowColor] headerTextColor:[UIColor blackColor] cellTextColor:[UIColor blackColor]];
 
