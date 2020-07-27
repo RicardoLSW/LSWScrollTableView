@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *
- * @param frame
+ * @param frame 位置
  * @param columns 表头数据 [{key:"", value:"", width:""}, ...] key为表头名字，value为与表头对应的字段，width为单元格宽度
  * @param data 表格数据
  * @param cellHeight 单元格高度
@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param headerBackgroundColor 表头背景色
  * @param headerTextColor 表头文字颜色
  * @param cellTextColor 单元格文字颜色
- * @return
+ * @return 返回一个UIView
  */
 - (instancetype)initWithFrame:(CGRect)frame columns:(NSArray *)columns data:(NSArray *)data cellHeight: (CGFloat)cellHeight headerHeight:(CGFloat)headerHeight cellBackgroundColor:(NSArray *)cellBackgroundColor headerBackgroundColor:(UIColor *)headerBackgroundColor headerTextColor:(UIColor *)headerTextColor cellTextColor:(UIColor *)cellTextColor;
 

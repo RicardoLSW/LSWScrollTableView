@@ -12,15 +12,15 @@
 
 @interface LSWScrollTableView ()<UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, strong) NSTimer *timer;
-@property (nonatomic, strong) NSArray *data;
-@property (nonatomic) CGFloat cellHeight;
-@property (nonatomic, strong) NSArray *columns;
-@property (nonatomic) CGFloat headerHeight;
-@property (nonatomic, strong) NSArray *cellBackgroundColor;
-@property (nonatomic, strong) UIColor *cellTextColor;
-@property (nonatomic, strong) UITableView *tableView1;
-@property (nonatomic, strong) UITableView *tableView2;
+@property (nonatomic, strong) NSTimer *timer; ///定时器，用于开启、关闭滚动
+@property (nonatomic, strong) NSArray *data; ///传入的原始数据
+@property (nonatomic) CGFloat cellHeight; ///单元格高度
+@property (nonatomic, strong) NSArray *columns; ///表头数据
+@property (nonatomic) CGFloat headerHeight; ///表头高度
+@property (nonatomic, strong) NSArray *cellBackgroundColor; ///单元格背景色
+@property (nonatomic, strong) UIColor *cellTextColor; ///文字颜色
+@property (nonatomic, strong) UITableView *tableView1; ///表格1
+@property (nonatomic, strong) UITableView *tableView2; ///表格2
 
 @end
 
@@ -40,6 +40,7 @@ static NSString *const cellId = @"cellId";
         self.cellTextColor = cellTextColor;
         self.backgroundColor = COLOR(0, 0, 0, 0);
         
+        ///表头部分
         UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, self.headerHeight)];
         headerView.backgroundColor = headerBackgroundColor;
         if (columns && columns.count > 0) {
@@ -56,9 +57,9 @@ static NSString *const cellId = @"cellId";
         } else {
             NSLog(@"columns不能为空");
         }
-        
         [self addSubview:headerView];
         
+        ///表格部分
         UIView *tableView = [[UIView alloc] initWithFrame:CGRectMake(0, self.headerHeight, frame.size.width, frame.size.height - self.headerHeight)];
         tableView.clipsToBounds = YES;
         tableView.backgroundColor = COLOR(0, 0, 0, 0);
@@ -70,13 +71,13 @@ static NSString *const cellId = @"cellId";
         self.tableView1.dataSource = self;
         self.tableView2.delegate = self;
         self.tableView2.dataSource = self;
-        self.tableView1.scrollEnabled = NO;
-        self.tableView2.scrollEnabled = NO;
+        self.tableView1.scrollEnabled = NO; ///禁止表格1自带的滚动
+        self.tableView2.scrollEnabled = NO; ///禁止表格2自带的滚动
         [tableView addSubview:self.tableView1];
         [tableView addSubview:self.tableView2];
-        
         [self addSubview:tableView];
 
+        ///开始滚动
         [self openScroll];
     }
     
@@ -102,6 +103,8 @@ static NSString *const cellId = @"cellId";
         headerX += [obj[@"width"] floatValue];
         [cell addSubview:label];
     }];
+    
+    ///这里我把单元格颜色做成斑马纹的样式
     if (self.data.count % 2 == 1) {
         if (tableView == self.tableView1) {
             if (indexPath.row % 2 == 1) {
@@ -123,7 +126,7 @@ static NSString *const cellId = @"cellId";
             cell.backgroundColor = self.cellBackgroundColor[1];
         }
     }
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone; ///禁止选中
     return cell;
 }
 
@@ -144,11 +147,14 @@ static NSString *const cellId = @"cellId";
     return self.cellHeight;
 }
 
+
+///停止滚动
 - (void)stopScroll{
     [self.timer invalidate];
     self.timer = nil;
 }
 
+///开启滚动
 - (void)openScroll{
     if (self.timer == nil) {
         self.timer = [NSTimer timerWithTimeInterval:0.03 repeats:YES block:^(NSTimer *timer) {
